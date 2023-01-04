@@ -55,8 +55,6 @@ char al (int argc, char **argv, int num[100], char symbol[100]) {
 
     num[q] = '\0';
     symbol[qq] = '\0';
-    q = 0;
-    qq = 0;
 
 }
 

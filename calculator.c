@@ -8,13 +8,13 @@ char calculator (int num[100], char symbol[100]) {
 
         int i = 0;
 
-        if (symbol[ii] == "*" || symbol[ii] == "/") {
+        if (symbol[ii] == '*' || symbol[ii] == '/') {
 
             i = ii;
 
-            while (symbol[ii] == "*" || symbol[ii] == "/") {
+            while (symbol[ii] == '*' || symbol[ii] == '/') {
 
-                if (symbol[ii] == "*") {
+                if (symbol[ii] == '*') {
                     num[i] = num[i] * num[ii + 1];
                 } else if (symbol[ii] == '/') {
                     num[i] = num[i] / num[ii + 1];
@@ -28,7 +28,7 @@ char calculator (int num[100], char symbol[100]) {
     }
 
     account(symbol, num);
-
+    return 0;
 }
 
 

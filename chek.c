@@ -20,7 +20,7 @@ char chek (int num[100], char symbol[100]) {
         return 1;
     }
 
-    else if (addition(num, symbol) == 10010010100101) {
+    else if (addition(num, symbol) == 2) {
         return 1;
     }
 
@@ -61,12 +61,13 @@ int addition (int num[100], char symbol[100]) {
 
         else {
             printf("\n ошибка");
-            return 000;
+            return 2;
         }
 
         printf("\n (((ответ == %d", p);
 
-        return 10010010100101;
+        return 2;
     }
 
+    return 0;
 }
